@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+.slide-image{
+	width:100%;
+	height: 150px;
+}
+
+
+.btnbottom{
+  height: 70px;
+  padding-top: 10px;
+  border-bottom: 1px solid #f8f8f8;
+}
+.btnbottom > div {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+.navbtns{
+	background-color: #fff;
+    border: none;
+}
+.navbtns button{
+	background-color: transparent;
+}
+
+.account-profile{
+    height: 100px;
+    background-color: #000;
+}
+
+.account-profile img{
+	height: 80px;
+	border-radius: 80px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.account-profile button{
+	margin-left: 15px;
+	margin-top: 25px;
+	width: 100px;
+	font-weight: bold;
+}

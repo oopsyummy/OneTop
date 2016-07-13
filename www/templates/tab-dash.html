@@ -1,0 +1,96 @@
+<ion-view view-title="一元夺宝">
+    <ion-nav-bar class="navbtns">
+        <ion-nav-buttons side="primary">
+            <button class="button button-icon">
+                <i class="ion ion-ios-search" style="font-size:25px;"></i>
+            </button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <button class="button button-icon">
+                <i class="ion ion-ios-bell-outline" style="font-size:25px"></i>
+            </button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content ng-controller="DashCtrl">
+        <ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()">
+        </ion-refresher>
+        <div>
+            <ion-slide-box
+                does-continue="true" 
+                auto-play = "true"
+            >
+                <ion-slide>
+                    <div class="box blue"> <img class="slide-image" src="img/1.jpg"></div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box yellow"><img class="slide-image" src="img/2.jpg"></div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box pink"><img class="slide-image" src="img/3.jpg"></div>
+                </ion-slide>
+            </ion-slide-box>
+    </ion-content>
+</ion-view>
+</div>
+<div class="btnbottom">
+    <div>
+        <i class="icon ion-android-list" style="font-size:30px; color:#2f8916"></i>
+        <br> 常见问题
+    </div>
+    <div>
+        <i class="icon ion-android-favorite" style="font-size:30px; color:orange"></i>
+        <br> 晒单
+    </div>
+    <div>
+        <i class="icon ion-ios-paw" style="font-size:30px; color:#a00b0b"></i>
+        <br>夺宝记录
+    </div>
+</div>
+<div>
+    <a class="item item-icon-left">
+        <i class="icon ion-android-volume-up" style="color:red"></i>
+        <p>恭喜恭喜</p>
+    </a>
+</div>
+<div class="item item-divider"></div>
+
+<div class="tabs" style="position:relative">
+    <a  class="tab-item" 
+        ng-click="tab.dash=0"
+        ng-class="{'active':tab.dash==0}"
+        >
+    人气
+    </a>
+
+
+    <a  class="tab-item" 
+        ng-click="tab.dash=1"
+        ng-class="{'active':tab.dash==1}"
+        >
+    最新
+    </a>
+    <a  class="tab-item" 
+        ng-click="tab.dash=2"
+        ng-class="{'active':tab.dash==2}"
+        >
+    即将揭晓
+
+    </a>
+</div>
+    <ion-slide-box 
+    show-pager = "false"
+    active-slide = "tab.dash"
+    >
+                <ion-slide>
+                    <div class="box blue">
+                        <div ng-include="'templates/dash-tabs/1.html'"></div>
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box yellow"><div ng-include="'templates/dash-tabs/2.html'"></div></div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box pink"><div ng-include="'templates/dash-tabs/3.html'"></div></div>
+                </ion-slide>
+    </ion-slide-box>
+
