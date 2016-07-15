@@ -42,3 +42,97 @@
 	width: 100px;
 	font-weight: bold;
 }
+
+
+
+/*RENQI PART*/
+.renqi{
+	width:100%;
+}
+
+.good-block {
+	padding: 10px;
+
+}
+
+.good-block > img {
+	max-width: 100%;
+	max-height: 100px;
+
+}
+.zuixin{
+width: 100%;
+}
+
+.willing{
+width: 100%;
+}
+.willing img{
+ margin:0 auto;
+ display: block;
+}
+.willing-content{
+	font-size:15px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.willing-content timer{
+	font-size: 20px;
+}
+
+.zuixin-page{
+border-bottom:1px solid #000;
+height: 110px;
+}
+
+.zuixin-page img{
+	height: 100px;
+	padding: 10px;
+	float: left;
+
+}
+
+.zuixin-content{
+	padding: 8px;
+}
+.zuixin-content h3{
+	font-size: 18px;
+}
+.zuixin-content p{
+	font-size:15px;
+}
+
+.timer1{
+	color:red;
+	font-size:30px;
+	font-weight: bold;
+}
+
+.show-head{
+	padding:10px;
+
+}
+.show-head img{
+	height: 30px;
+	float: left;
+	padding-right:10px 
+}
+
+.show-share{
+	height: 125px;
+	width: 82%;
+	position: absolute;
+	left:15%;
+	background-color: grey
+}
+
+
+
+
+
+
+
+
+
+
+
