@@ -23,8 +23,8 @@ angular.module('starter.controllers', [])
 
   
 })
-.controller('ShowCtrl', function($scope) {})
-
+.controller('FoundCtrl', function($scope) {})
+.controller('ListCtrl', function($scope) {})
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true

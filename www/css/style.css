@@ -12,7 +12,7 @@
 }
 .btnbottom > div {
 	float: left;
-	width: 33%;
+	width: 25%;
 	text-align: center;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .good-block {
-	padding: 10px;
+	padding: 15px;
 
 }
 
@@ -61,7 +61,12 @@
 
 }
 .zuixin{
-width: 100%;
+   width: 100%;
+}
+
+.zuixinbar{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .willing{
@@ -81,31 +86,35 @@ width: 100%;
 }
 
 .zuixin-page{
-border-bottom:1px solid #000;
-height: 110px;
+border:1px solid grey;
+height: 200px;
+margin-left: 10px;
+padding-left:7%;
 }
 
 .zuixin-page img{
 	height: 100px;
 	padding: 10px;
-	float: left;
-
 }
 
 .zuixin-content{
-	padding: 8px;
+	padding-left: 10px;
+	margin:0;
+
 }
-.zuixin-content h3{
+.zuixin-content h4{
 	font-size: 18px;
+	margin:0;
 }
 .zuixin-content p{
-	font-size:15px;
+	font-size:10px;
 }
 
 .timer1{
 	color:red;
 	font-size:30px;
 	font-weight: bold;
+	margin-left: -4px;
 }
 
 .show-head{
@@ -127,7 +136,40 @@ height: 110px;
 }
 
 
+.listtop{
+	height: 360px;
+	text-align: center;
+	position:relative;
+}
+.listtop img{
+    height: 360px;
+    width: 100%;
 
+}
+
+.listtop p{
+	color:#fff;
+	font-size:20px;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px grey;
+    margin-top: -45%; 	
+}
+
+.listtop button{
+	margin-top: 15px;
+	width: 80px;
+	padding: 0;
+	border-radius: 10px;
+}
+.listdownrow{
+	text-align: center;
+	padding-left: 10px;
+}
+
+.col-25 img{
+	width: 100%;
+	padding:10px;
+}
 
 
 

@@ -73,12 +73,21 @@ angular.module('starter', [
         }
       }
     })
-    .state('tab.show', {
-        url: '/show',
+    .state('tab.found', {
+        url: '/found',
         views: {
-          'tab-show': {
-            templateUrl: 'templates/tab-show.html',
-            controller: 'ShowCtrl'
+          'tab-found': {
+            templateUrl: 'templates/tab-found.html',
+            controller: 'FoundCtrl'
+          }
+        }
+      })
+    .state('tab.list', {
+        url: '/list',
+        views: {
+          'tab-list': {
+            templateUrl: 'templates/tab-list.html',
+            controller: 'ListCtrl'
           }
         }
       })

@@ -35,15 +35,19 @@
 <div class="btnbottom">
     <div>
         <i class="icon ion-android-list" style="font-size:30px; color:#2f8916"></i>
-        <br> 常见问题
+        <br> 分类
     </div>
     <div>
         <i class="icon ion-android-favorite" style="font-size:30px; color:orange"></i>
-        <br> 晒单
+        <br> 优选商品
     </div>
     <div>
         <i class="icon ion-ios-paw" style="font-size:30px; color:#a00b0b"></i>
-        <br>夺宝记录
+        <br>晒单
+    </div>
+    <div>
+        <i class="icon ion-help-circled" style="font-size:30px; color:blue"></i>
+        <br> 常见问题
     </div>
 </div>
 <div>
@@ -73,7 +77,15 @@
         ng-click="tab.dash=2"
         ng-class="{'active':tab.dash==2}"
         >
-    即将揭晓
+    进度
+
+    </a>
+    </a>
+    <a  class="tab-item" 
+        ng-click="tab.dash=3"
+        ng-class="{'active':tab.dash==3}"
+        >
+    总需人次
 
     </a>
 </div>
@@ -91,6 +103,11 @@
                 </ion-slide>
                 <ion-slide>
                     <div class="box pink"><div ng-include="'templates/dash-tabs/3.html'"></div></div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box red">
+                        <div ng-include="'templates/dash-tabs/4.html'"></div>
+                    </div>
                 </ion-slide>
     </ion-slide-box>
 
