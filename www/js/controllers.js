@@ -24,6 +24,7 @@ angular.module('starter.controllers', [])
   
 })
 .controller('FoundCtrl', function($scope) {})
+.controller('ShareCtrl', function($scope) {})
 .controller('ListCtrl', function($scope) {})
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {

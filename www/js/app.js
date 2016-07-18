@@ -82,6 +82,15 @@ angular.module('starter', [
           }
         }
       })
+    .state('found－share', {
+        url: '/found-share',
+        views: {
+          '@': {
+            templateUrl: 'templates/found-share.html',
+            controller: 'ShareCtrl'
+          }
+        }
+      })
     .state('tab.list', {
         url: '/list',
         views: {

@@ -122,10 +122,17 @@ padding-left:7%;
 
 }
 .show-head img{
-	height: 30px;
+	height: 35px;
 	float: left;
 	padding-right:10px 
 }
+.sharetime{
+	position: absolute;
+	right:10%;
+	top:3%;
+}
+
+
 
 .show-share{
 	height: 125px;
